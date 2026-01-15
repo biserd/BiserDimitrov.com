@@ -11,9 +11,8 @@ export default function Home() {
         <header className="flex flex-col sm:flex-row justify-between items-baseline gap-4 mb-16 md:mb-24">
           <h1 className="text-xl font-semibold tracking-tight">Biser Dimitrov</h1>
           <nav className="flex flex-wrap gap-6 text-sm text-muted-foreground">
-            <a href="mailto:hello@biserdimitrov.com" className="hover:text-primary transition-colors">Email</a>
-            <a href="https://www.linkedin.com/in/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
-            <a href="https://www.forbes.com/sites/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Forbes</a>
+            <a href="https://www.linkedin.com/in/biserdimitrov/" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">LinkedIn</a>
+            <a href="https://www.forbes.com/sites/biserdimitrov/" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">Forbes</a>
             <a href="#patents" className="hover:text-primary transition-colors">Patents</a>
           </nav>
         </header>
@@ -81,7 +80,7 @@ export default function Home() {
               <a 
                 href="https://patents.google.com/?inventor=Biser+Dimitrov" 
                 target="_blank" 
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="inline-block text-primary hover:underline underline-offset-4 decoration-primary/30"
               >
                 View patents &rarr;
@@ -117,7 +116,7 @@ export default function Home() {
             <a 
               href="https://www.forbes.com/sites/biserdimitrov/"
               target="_blank" 
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="inline-block text-primary hover:underline underline-offset-4 decoration-primary/30"
             >
               Read my articles on Forbes &rarr;
