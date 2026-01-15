@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @plugin "tailwindcss-animate";
 
-@custom-variant dark (&:is(.dark *));
+/* 
+  Forced Light Mode Theme
+  - Removed dark mode media queries/classes per user request
+*/
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -42,16 +45,9 @@
   --radius: 0rem; 
 }
 
-/* 
-  Minimalist "Citi/MD-formal" Theme
-  - High contrast
-  - Clean whitespace
-  - "Corporate" Accent (Deep Blue)
-*/
-
 :root {
   --background: 0 0% 100%;       /* Pure White */
-  --foreground: 220 10% 10%;     /* Almost Black, slight cool tint */
+  --foreground: 220 10% 10%;     /* Almost Black */
 
   --card: 0 0% 100%;
   --card-foreground: 220 10% 10%;
@@ -60,16 +56,16 @@
   --popover-foreground: 220 10% 10%;
 
   /* Accent Color: Deep Professional Blue */
-  --primary: 215 100% 30%;       /* #004099 equivalent approx */
+  --primary: 215 100% 30%;       /* #004099 */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 220 10% 96%;      /* Very light gray for subtle backgrounds */
+  --secondary: 220 10% 96%;
   --secondary-foreground: 220 10% 10%;
 
   --muted: 220 10% 96%;
-  --muted-foreground: 220 10% 40%; /* Subtle text */
+  --muted-foreground: 220 10% 40%;
 
-  --accent: 215 100% 30%;        /* Same as primary for consistency */
+  --accent: 215 100% 30%;
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
@@ -80,38 +76,6 @@
   --ring: 215 100% 30%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: 220 10% 10%;
-    --foreground: 0 0% 98%;
-
-    --card: 220 10% 10%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 220 10% 10%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 215 90% 60%; /* Brighter blue for dark mode */
-    --primary-foreground: 220 10% 10%;
-
-    --secondary: 220 10% 15%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 220 10% 15%;
-    --muted-foreground: 220 10% 60%;
-
-    --accent: 215 90% 60%;
-    --accent-foreground: 220 10% 10%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 220 10% 20%;
-    --input: 220 10% 20%;
-    --ring: 215 90% 60%;
-  }
-}
-
 @layer base {
   * {
     @apply border-border;
@@ -120,12 +84,10 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
   
-  /* Typography Scale Overrides for Strict Minimalism */
   h1, h2, h3, h4, h5, h6 {
     @apply tracking-tight font-medium;
   }
   
-  /* Subtle link underline effect */
   a:not(.btn) {
     @apply hover:text-primary transition-colors duration-200;
   }
