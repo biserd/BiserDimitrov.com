@@ -22,9 +22,181 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="min-h-screen font-sans text-foreground bg-background selection:bg-primary/10 selection:text-primary">
+      <!-- Container - Max Width 840px (per requirements) -->
+      <div class="max-w-[840px] mx-auto px-6 py-12 md:py-20">
+        
+        <!-- 1. Header -->
+        <header class="flex flex-col sm:flex-row justify-between items-baseline gap-4 mb-16 md:mb-24">
+          <h1 class="text-xl font-semibold tracking-tight">Biser Dimitrov</h1>
+          <nav class="flex flex-wrap gap-6 text-sm text-muted-foreground">
+            <a href="https://www.linkedin.com/in/biserdimitrov/" target="_blank" rel="noopener noreferrer nofollow" class="hover:text-primary transition-colors">LinkedIn</a>
+            <a href="https://www.forbes.com/sites/biserdimitrov/" target="_blank" rel="noopener noreferrer nofollow" class="hover:text-primary transition-colors">Forbes</a>
+            <a href="#patents" class="hover:text-primary transition-colors">Patents</a>
+          </nav>
+        </header>
+
+        <main class="space-y-16 md:space-y-24">
+          
+          <!-- 2. Hero -->
+          <section class="space-y-6">
+            <h2 class="text-3xl md:text-4xl font-medium tracking-tight text-foreground/90 leading-tight">
+              Digital Assets Technology & Enterprise Platforms
+            </h2>
+            <div class="space-y-6 max-w-2xl">
+              <p class="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                I lead teams delivering secure, scalable financial infrastructure across digital assets, stablecoin-based payment rails, tokenization, and enterprise integrations—with a focus on production readiness, controls, and resilience in regulated environments.
+              </p>
+              
+              <div class="text-sm text-muted-foreground space-y-1 pt-2">
+                <p><span class="text-foreground font-medium">Currently:</span> Digital Assets Technology leader, Citi</p>
+                <p><span class="text-foreground font-medium">Location:</span> New York City</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. Expertise -->
+          <section>
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-6">Areas of focus</h3>
+            <ul class="grid sm:grid-cols-2 gap-x-12 gap-y-8">
+              <li class="text-base leading-relaxed text-foreground/80 relative pl-4 border-l-2 border-border/50">
+                Digital assets platforms: custody workflows, tokenization, settlement and post-trade integrations
+              </li>
+              <li class="text-base leading-relaxed text-foreground/80 relative pl-4 border-l-2 border-border/50">
+                Stablecoins & programmable payments: enterprise-grade rails, compliance-aware design, operational controls
+              </li>
+              <li class="text-base leading-relaxed text-foreground/80 relative pl-4 border-l-2 border-border/50">
+                Applied AI in financial infrastructure: automation, monitoring, analytics, and decision support (human-in-the-loop)
+              </li>
+              <li class="text-base leading-relaxed text-foreground/80 relative pl-4 border-l-2 border-border/50">
+                Platform engineering: APIs, data pipelines, reliability, security-by-design, governance
+              </li>
+            </ul>
+          </section>
+
+          <!-- 4. Selected Experience -->
+          <section>
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-8">Selected experience</h3>
+            <div class="space-y-10">
+              <div class="grid md:grid-cols-[200px_1fr] gap-4">
+                <div class="font-medium text-foreground">Citi — Digital Assets Technology</div>
+                <div class="text-muted-foreground leading-relaxed">
+                  Leadership across platform engineering for digital assets initiatives, partnering across product, risk, legal, and operations to bring capabilities from concept to production.
+                </div>
+              </div>
+              <div class="grid md:grid-cols-[200px_1fr] gap-4">
+                <div class="font-medium text-foreground">Enterprise platforms & integrations</div>
+                <div class="text-muted-foreground leading-relaxed">
+                  Architected and delivered high-availability systems spanning internal platforms and partner ecosystems, emphasizing measurable outcomes, operating cadence, and long-term maintainability.
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Selected Personal Projects -->
+          <section>
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-6">Selected Personal Projects</h3>
+            <p class="text-muted-foreground mb-8 max-w-2xl leading-relaxed">
+              Outside of my core role, I build small products to explore ideas in data, automation, and applied AI end to end, from concept to launch.
+            </p>
+            <div class="space-y-8">
+              <div class="grid md:grid-cols-[200px_1fr] gap-4">
+                <div class="font-medium text-foreground">
+                  <a href="https://aitracker.run" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">AITracker.run</a>
+                </div>
+                <div class="text-muted-foreground leading-relaxed">
+                  Running analytics and AI coaching insights to support training decisions and performance tracking.
+                </div>
+              </div>
+              <div class="grid md:grid-cols-[200px_1fr] gap-4">
+                <div class="font-medium text-foreground">
+                   <a href="https://nycschoolsratings.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">NYCSchoolsRatings.com</a>
+                </div>
+                <div class="text-muted-foreground leading-relaxed">
+                  Data-driven school discovery and comparison for NYC families, built on public datasets and structured insights.
+                </div>
+              </div>
+              <div class="grid md:grid-cols-[200px_1fr] gap-4">
+                <div class="font-medium text-foreground">
+                   <a href="https://realtorsdashboard.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">RealtorsDashboard.com</a>
+                </div>
+                <div class="text-muted-foreground leading-relaxed">
+                  Property analytics and market insights for evaluation and decision support.
+                </div>
+              </div>
+            </div>
+            <p class="text-sm text-muted-foreground/60 mt-8 italic">
+              (All projects are personal and independent, and do not represent my employer)
+            </p>
+          </section>
+
+          <!-- 5. Patents -->
+          <section id="patents">
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Patents</h3>
+            <div class="space-y-2">
+              <p class="text-foreground/80">Inventor on patents related to financial systems and platform infrastructure.</p>
+              <a 
+                href="https://patents.google.com/?inventor=Biser+Dimitrov" 
+                target="_blank" 
+                rel="noopener noreferrer nofollow"
+                class="inline-block text-primary hover:underline underline-offset-4 decoration-primary/30"
+              >
+                View patents &rarr;
+              </a>
+            </div>
+          </section>
+
+          <!-- 6. Speaking -->
+          <section>
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-6">Speaking</h3>
+            <div class="max-w-3xl space-y-6">
+              <p class="text-muted-foreground">
+                I speak on stablecoin infrastructure, tokenization, enterprise adoption of digital assets, and operating models for shipping in regulated environments.
+              </p>
+              <ul class="space-y-3 pl-4 list-disc marker:text-muted-foreground">
+                <li class="text-foreground/80 pl-2">Stablecoin rails in the enterprise: architecture, controls, and adoption patterns</li>
+                <li class="text-foreground/80 pl-2">From pilots to production: building digital assets platforms that last</li>
+                <li class="text-foreground/80 pl-2">Practical AI for financial infrastructure: automation, monitoring, and governance</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 7. Writing -->
+          <section>
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Writing</h3>
+            <p class="text-muted-foreground mb-2">
+              Occasional notes on digital assets infrastructure, platform leadership, and applied AI in enterprise systems.
+            </p>
+            <a 
+              href="https://www.forbes.com/sites/biserdimitrov/"
+              target="_blank" 
+              rel="noopener noreferrer nofollow"
+              class="inline-block text-primary hover:underline underline-offset-4 decoration-primary/30"
+            >
+              Read my articles on Forbes &rarr;
+            </a>
+          </section>
+
+          <!-- 8. Contact -->
+          <section class="pt-8 border-t border-border">
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Contact</h3>
+            <p class="text-lg">
+              For speaking, advisory, or professional inquiries: <br class="sm:hidden"/>
+              <a href="mailto:hello@biserdimitrov.com" class="text-primary hover:underline underline-offset-4 decoration-primary/30">
+                hello@biserdimitrov.com
+              </a>
+            </p>
+          </section>
+        
+        </main>
+
+        <footer class="mt-24 pt-8 text-sm text-muted-foreground/60 flex justify-between items-center">
+          <p>&copy; 2026 Biser Dimitrov</p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
