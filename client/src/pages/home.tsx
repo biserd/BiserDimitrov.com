@@ -81,7 +81,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="grid md:grid-cols-[200px_1fr] gap-4">
                 <div className="font-medium text-foreground">
-                  <a href="https://aitracker.run" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">AITracker.run</a>
+                  <a href="https://aitracker.run" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">AITracker.run</a>
                 </div>
                 <div className="text-muted-foreground leading-relaxed">
                   Running analytics and AI coaching insights to support training decisions and performance tracking.
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-[200px_1fr] gap-4">
                 <div className="font-medium text-foreground">
-                   <a href="https://nycschoolsratings.com" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">NYCSchoolsRatings.com</a>
+                   <a href="https://nycschoolsratings.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">NYCSchoolsRatings.com</a>
                 </div>
                 <div className="text-muted-foreground leading-relaxed">
                   Data-driven school discovery and comparison for NYC families, built on public datasets and structured insights.
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-[200px_1fr] gap-4">
                 <div className="font-medium text-foreground">
-                   <a href="https://realtorsdashboard.com" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">RealtorsDashboard.com</a>
+                   <a href="https://realtorsdashboard.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">RealtorsDashboard.com</a>
                 </div>
                 <div className="text-muted-foreground leading-relaxed">
                   Property analytics and market insights for evaluation and decision support.
