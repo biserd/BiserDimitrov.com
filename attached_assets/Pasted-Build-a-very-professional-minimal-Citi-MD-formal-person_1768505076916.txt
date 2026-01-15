@@ -1,0 +1,77 @@
+Build a very professional, minimal, Citi/MD-formal personal website for biserdimitrov.com as a single-page site.
+
+GOAL
+- Executive credibility in 10–15 seconds, minimal design, fast loading, responsive, accessible.
+- Primary CTA is email. Secondary links: LinkedIn, Resume PDF (placeholder), Patents.
+
+STYLE
+- Minimalist: lots of whitespace, max-width 760–840px, centered layout.
+- Typography: system font stack or Inter; no animations; no gradients; subtle separators.
+- One accent color for links/hover only.
+- Light mode by default; optional auto dark-mode via prefers-color-scheme.
+- Accessibility: proper heading hierarchy, focus states, high contrast, keyboard navigable.
+
+INFORMATION ARCHITECTURE (single page)
+1) Header: Name on left; links on right: Email, LinkedIn, Resume (PDF), Patents
+2) Hero: name, title, 2–3 sentence positioning; short “Currently” + “Location”; primary Email button
+3) Expertise: 4 bullet focus areas (digital assets, stablecoins, AI, platform engineering)
+4) Selected experience: 2 short role blocks (Citi + enterprise integrations) written high-level (no sensitive details)
+5) Patents: short line + link to Google Patents
+6) Speaking: 1 paragraph + 3 topic bullets
+7) Writing: short “occasional notes” line (placeholder links optional)
+8) Contact: repeat email CTA; footer with copyright
+
+CONTENT (use exactly this copy unless minor tightening needed)
+Name: Biser Dimitrov
+Email: hello@biserdimitrov.com (mailto link)
+
+Hero title: “Digital Assets Technology & Enterprise Platforms”
+Hero paragraph:
+“I lead teams delivering secure, scalable financial infrastructure across digital assets, stablecoin-based payment rails, tokenization, and enterprise integrations—with a focus on production readiness, controls, and resilience in regulated environments.”
+Currently line: “Currently: Digital Assets Technology leader, Citi”
+Location line: “New York City”
+Primary CTA button text: “Email”
+
+Expertise heading: “Areas of focus”
+Bullets:
+- “Digital assets platforms: custody workflows, tokenization, settlement and post-trade integrations”
+- “Stablecoins & programmable payments: enterprise-grade rails, compliance-aware design, operational controls”
+- “Applied AI in financial infrastructure: automation, monitoring, analytics, and decision support (human-in-the-loop)”
+- “Platform engineering: APIs, data pipelines, reliability, security-by-design, governance”
+
+Selected experience heading: “Selected experience”
+Block 1:
+Title: “Citi — Digital Assets Technology”
+Text: “Leadership across platform engineering for digital assets initiatives, partnering across product, risk, legal, and operations to bring capabilities from concept to production.”
+Block 2:
+Title: “Enterprise platforms & integrations”
+Text: “Architected and delivered high-availability systems spanning internal platforms and partner ecosystems, emphasizing measurable outcomes, operating cadence, and long-term maintainability.”
+
+Patents heading: “Patents”
+Text: “Inventor on patents related to financial systems and platform infrastructure.”
+Link label: “View patents”
+Link URL: https://patents.google.com/?inventor=Biser+Dimitrov
+
+Speaking heading: “Speaking”
+Text: “I speak on stablecoin infrastructure, tokenization, enterprise adoption of digital assets, and operating models for shipping in regulated environments.”
+Topics bullets:
+- “Stablecoin rails in the enterprise: architecture, controls, and adoption patterns”
+- “From pilots to production: building digital assets platforms that last”
+- “Practical AI for financial infrastructure: automation, monitoring, and governance”
+
+Writing heading: “Writing”
+Text: “Occasional notes on digital assets infrastructure, platform leadership, and applied AI in enterprise systems. (Links coming soon.)”
+
+Contact heading: “Contact”
+Text: “For speaking, advisory, or professional inquiries: hello@biserdimitrov.com”
+
+Footer: “© Biser Dimitrov”
+
+SEO
+- Set <title> to: “Biser Dimitrov — Digital Assets, Stablecoins & Enterprise Platforms”
+- Set meta description to: “Technology leader in digital assets and enterprise platforms, focused on stablecoin payment rails, tokenization, and applied AI in regulated environments.”
+- Add basic Open Graph tags (title/description/url) with placeholders for image.
+
+DELIVERABLE
+- Provide a clean implementation as either a single static HTML file with a small CSS file, or a minimal Next.js/React page—no heavy dependencies.
+- Ensure Lighthouse-friendly performance: minimal JS, optimized fonts, semantic HTML.
