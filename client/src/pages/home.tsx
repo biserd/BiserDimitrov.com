@@ -14,7 +14,6 @@ export default function Home() {
             <a href="mailto:hello@biserdimitrov.com" className="hover:text-primary transition-colors">Email</a>
             <a href="https://www.linkedin.com/in/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
             <a href="https://www.forbes.com/sites/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Forbes</a>
-            <a href="#" className="hover:text-primary transition-colors" aria-disabled="true">Resume (PDF)</a>
             <a href="#patents" className="hover:text-primary transition-colors">Patents</a>
           </nav>
         </header>
@@ -34,12 +33,6 @@ export default function Home() {
               <div className="text-sm text-muted-foreground space-y-1 pt-2">
                 <p><span className="text-foreground font-medium">Currently:</span> Digital Assets Technology leader, Citi</p>
                 <p><span className="text-foreground font-medium">Location:</span> New York City</p>
-              </div>
-
-              <div className="pt-4">
-                <Button asChild className="rounded-none px-6 bg-foreground hover:bg-primary text-background transition-colors">
-                  <a href="mailto:hello@biserdimitrov.com">Email</a>
-                </Button>
               </div>
             </div>
           </section>
