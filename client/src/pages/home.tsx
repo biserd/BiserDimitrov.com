@@ -72,6 +72,43 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Selected Personal Projects */}
+          <section>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-6">Selected Personal Projects</h3>
+            <p className="text-muted-foreground mb-8 max-w-2xl leading-relaxed">
+              Outside of my core role, I build small products to explore ideas in data, automation, and applied AI end to end, from concept to launch.
+            </p>
+            <div className="space-y-8">
+              <div className="grid md:grid-cols-[200px_1fr] gap-4">
+                <div className="font-medium text-foreground">
+                  <a href="https://aitracker.run" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">AITracker.run</a>
+                </div>
+                <div className="text-muted-foreground leading-relaxed">
+                  Running analytics and AI coaching insights to support training decisions and performance tracking.
+                </div>
+              </div>
+              <div className="grid md:grid-cols-[200px_1fr] gap-4">
+                <div className="font-medium text-foreground">
+                   <a href="https://nycschoolsratings.com" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">NYCSchoolsRatings.com</a>
+                </div>
+                <div className="text-muted-foreground leading-relaxed">
+                  Data-driven school discovery and comparison for NYC families, built on public datasets and structured insights.
+                </div>
+              </div>
+              <div className="grid md:grid-cols-[200px_1fr] gap-4">
+                <div className="font-medium text-foreground">
+                   <a href="https://realtorsdashboard.com" target="_blank" rel="noopener noreferrer nofollow" className="hover:text-primary transition-colors">RealtorsDashboard.com</a>
+                </div>
+                <div className="text-muted-foreground leading-relaxed">
+                  Property analytics and market insights for evaluation and decision support.
+                </div>
+              </div>
+            </div>
+            <p className="text-sm text-muted-foreground/60 mt-8 italic">
+              (All projects are personal and independent, and do not represent my employer)
+            </p>
+          </section>
+
           {/* 5. Patents */}
           <section id="patents">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Patents</h3>
