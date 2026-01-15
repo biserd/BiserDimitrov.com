@@ -10,9 +10,10 @@ export default function Home() {
         {/* 1. Header */}
         <header className="flex flex-col sm:flex-row justify-between items-baseline gap-4 mb-16 md:mb-24">
           <h1 className="text-xl font-semibold tracking-tight">Biser Dimitrov</h1>
-          <nav className="flex gap-6 text-sm text-muted-foreground">
+          <nav className="flex flex-wrap gap-6 text-sm text-muted-foreground">
             <a href="mailto:hello@biserdimitrov.com" className="hover:text-primary transition-colors">Email</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
+            <a href="https://www.forbes.com/sites/biserdimitrov/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Forbes</a>
             <a href="#" className="hover:text-primary transition-colors" aria-disabled="true">Resume (PDF)</a>
             <a href="#patents" className="hover:text-primary transition-colors">Patents</a>
           </nav>
@@ -117,9 +118,17 @@ export default function Home() {
           {/* 7. Writing */}
           <section>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Writing</h3>
-            <p className="text-muted-foreground">
-              Occasional notes on digital assets infrastructure, platform leadership, and applied AI in enterprise systems. <span className="opacity-50 italic">(Links coming soon.)</span>
+            <p className="text-muted-foreground mb-2">
+              Occasional notes on digital assets infrastructure, platform leadership, and applied AI in enterprise systems.
             </p>
+            <a 
+              href="https://www.forbes.com/sites/biserdimitrov/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block text-primary hover:underline underline-offset-4 decoration-primary/30"
+            >
+              Read my articles on Forbes &rarr;
+            </a>
           </section>
 
           {/* 8. Contact */}
