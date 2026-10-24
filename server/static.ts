@@ -12,8 +12,12 @@ export function serveStatic(app: Express) {
 
   app.use(express.static(distPath));
 
-  // fall through to index.html if the file doesn't exist
-  app.use("*", (_req, res) => {
+  // Unknown file requests should not receive the HTML page as a successful response.
+  app.use("*", (req, res) => {
+    if (path.extname(req.path)) {
+      res.sendStatus(404);
+      return;
+    }
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }
