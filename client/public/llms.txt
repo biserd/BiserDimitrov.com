@@ -1,0 +1,19 @@
+# Biser Dimitrov
+
+Biser Dimitrov is a digital assets technology leader focused on stablecoin payment rails, tokenization, enterprise platforms, and applied AI in regulated financial infrastructure. This site summarizes his experience, speaking topics, writing, patents, and independent personal projects.
+
+## Main page
+
+- [Biser Dimitrov](https://biserdimitrov.com/): Profile, areas of focus, selected experience, projects, speaking, and contact.
+
+## Independent personal projects
+
+- [AITracker.run](https://aitracker.run/): Running analytics and AI coaching.
+- [NYCSchoolsRatings.com](https://nycschoolsratings.com/): NYC school discovery and comparison.
+- [KinderLearner.com](https://kinderlearner.com/): Adaptive math and phonics practice for children ages 3–6.
+- [LLMMargin.com](https://llmmargin.com/): AI application and infrastructure margin analysis.
+
+## Writing and patents
+
+- [Forbes articles](https://www.forbes.com/sites/biserdimitrov/): Writing by Biser Dimitrov.
+- [Patents](https://patents.google.com/?inventor=Biser+Dimitrov): Patent listings.
